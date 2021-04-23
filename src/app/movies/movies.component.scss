@@ -1,0 +1,69 @@
+
+
+.sidebar-menu{
+    width: 15%;
+    height: 90vh;
+    position: absolute;
+    z-index: 1;
+    top:62px;
+    left: 73px;
+    background-color: #0E1D40;
+    overflow-x: hidden;
+    padding-top: 16px;
+}
+
+.text{
+    color: white;
+    background-color: grey;
+    
+}
+a{
+    display: block;
+    text-decoration: none;
+    
+}
+.jaggu{
+    color: white;
+}
+.seven{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 11px;
+    
+}
+
+.seven a{
+    text-decoration: none;
+    color: white;
+}
+.progress{
+    width: 90%;
+    margin: 10px 10px;
+    
+}
+
+// .imdb{
+//     float: left;
+//     color: white;
+// }
+// .nine{
+//     color: white;
+// float: right;
+// }
+.movie{
+    margin-left: 10px;
+}
+.action:active{
+    color: #01D4E8;
+
+}
+.action{
+    color: white;
+    margin-left: 10px;
+}
+.ad{
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}

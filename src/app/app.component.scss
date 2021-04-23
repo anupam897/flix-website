@@ -1,0 +1,117 @@
+.Anu{
+    background-color: #16274C;
+}
+mat-icon .search{
+font-size: 30px;
+   position: relative;
+   top: 5px;
+}
+.text {
+    position: relative;
+    bottom: 8px;
+    padding: 5px;
+    
+}
+.anu{
+    color: red;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+#img_1{
+   
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#select{
+   display: inline-block;
+   border: none;
+   outline: none;
+    font-size: 10px;
+    background-color:  #16274C;
+    color: white;
+}
+
+.tv{
+  font-size: 15px;
+}
+
+.sidebar {
+  width: 5%;
+   height: 90vh;
+    position: absolute;
+    z-index: 1;
+    top:62px;
+    left: 0;
+    background-color: #1E2F55;
+    overflow-x: hidden;
+    padding-top: 40px;
+  }
+  .jay{
+    margin-left: 5px;
+    padding: 0px;
+  }
+  .home{
+    margin-left: -1px;
+    padding: 0px;
+  }
+  .abhay{
+    margin-left: 5px;
+    padding: 0px;
+  }
+  .hay{
+    margin-left: 5px;
+    padding: 0px;
+  }
+  .book{
+    margin-left: 5px;
+   
+  }
+  .song{
+    margin-left: 5px;
+    padding: 0px;
+  }
+  .songs{
+    margin-left: -11px;
+    font-size: 15px;
+  }
+
+  
+  .sidebar a {
+    padding: 6px 8px 16px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  .sidebar .abhay a:focus{
+    background-color: #FF0F71;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+  @media (min-width:320px) and (max-width:639px){
+    .sidebar{
+      height: 92vh;
+      position: absolute;
+      z-index: 1;
+      top: 56px;
+      left: 0;
+      background-color: #1E2F55;
+      overflow-x: hidden;
+      padding-top: 16px;
+  }
+  }
+

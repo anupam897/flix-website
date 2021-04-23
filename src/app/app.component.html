@@ -1,0 +1,48 @@
+<nav class="navbar navbar-expand-lg navbar-dark Anu">
+  <a class="navbar-brand " href="#" ><span class="anu">FLIX</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><mat-icon class="search">search</mat-icon><span class="text">
+          Search Movies, Actor, Directore etc.</span><span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+     
+        <img id="img_1" src="assets/image/pic29.png" width="30px;" height="30px;">
+        <span><select id="select"></select></span>
+     
+    </span>
+  </div>
+  <div class="sidebar">
+      <div class="jay">
+        <a href="#home"><mat-icon class="home"> home</mat-icon><br><span class="songs">Home</span></a>
+        
+      </div>
+      <br>
+    <div class="abhay">
+        <a routerLink="movie"><mat-icon> movie</mat-icon><br><span class="songs">Movie</span></a>
+    
+    </div>  
+    <br>
+    <div class="hay">
+        <a href="#clients"><mat-icon> tv</mat-icon><br><span class="tv">TV</span></a>
+       
+    </div>
+    <br>
+    <div class="book">
+        <a href="#contact"><mat-icon>book</mat-icon><br><span class="songs">Books</span></a>
+       
+    </div>
+    <br>
+    <div class="song">
+        <a href="#songs"><mat-icon>library_music</mat-icon><br><span class="songs">Songs</span></a>
+
+  </div>
+  </div>
+ 
+</nav>
+<router-outlet></router-outlet>
