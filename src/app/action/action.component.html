@@ -13,7 +13,52 @@
         </div>
         <div class="col-md-2">
           <figure class="figure">
-            <img src="assets/image/pic25.png" class="figure-img img-fluid">
+            <img src="assets/image/pic25.png" 
+            data-toggle="modal" 
+            data-target="#exampleModal"  class="figure-img img-fluid">
+ 
+       <div class="modal" 
+            id="exampleModal"
+            tabindex="-1" 
+            role="dialog"
+            aria-labelledby="exampleModalLabel" 
+            aria-hidden="true">
+           <div class="modal-dialog" 
+                role="document">
+               <div class="modal-content">
+                   
+ 
+                   <!--Modal body with image-->
+                   <div class="modal-body">
+                     <div class="row">
+                       <div class="col md-4">
+                    <img src="assets/image/pic1.jpg" width="180px" height="250px">
+                    <button class="button"><b>Imdb</b></button><span id="SPAN">7.8</span>
+                    </div>
+                    <div class="col md-8">
+                      <div class="deatils">
+                        <h4 id="id1">IRONMAN</h4>
+                        <h5 id="id5">2015 | action, superhero, tech</h5>
+                         <h5 id="pic">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           Lorem Ipsum has been the industry's standard dummy text 
+                           ever since the 1500s, when an unknown printer took a galley.</h5>
+                           <p class="rating"><span class="fa fa-star checked"></span>
+                           <span class="fa fa-star checked"></span>
+                             <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star-half-full chek"></span>
+                             <span class="fa fa-star chek"></span></p>
+                             <div class="Stars" style="--rating: 2.3;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                          <button id="btn1"><i class="fa fa-play-circle"></i> Play video</button>
+                          
+                      </div>
+                    </div>
+                  </div>
+                   </div>
+ 
+                   
+               </div>
+           </div>
+       </div>
             <figcaption class="figure-caption text-end">
               <h3>FANTASTIC 4</h3>
               <p>2011</p>
@@ -55,8 +100,8 @@
       <br>
       <div class="row rowsetting2">
         <div class="col-md-2 offset-md-1">
-          <figure class="figure">
-            <a href="google.com"><img src="assets/image/pic2.png"  class="figure-img img-fluid "></a>
+          <figure class="figure" (click)="show()">
+            <img src="assets/image/pic2.png"  class="figure-img img-fluid ">
             <figcaption class="figure-caption text-end">
               <h3>THE WOLVERINE</h3>
               <p>2015</p>

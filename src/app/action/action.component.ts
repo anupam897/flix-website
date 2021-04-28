@@ -12,4 +12,8 @@ export class ActionComponent implements OnInit {
   ngOnInit(): void {
   }
 
+public show(){
+  
+}
+
 }

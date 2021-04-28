@@ -19,6 +19,95 @@ h3{
     font-weight: 500;
     
 }
+.fa-star {
+    margin: 5px;
+    font-size: 8px;
+}
+.fa-star-half-full{
+    color: orange;
+}
+#id1{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    right: 50px;
+    top: 20px;
+}
+#id5{
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    position: relative;
+   right: 47px;
+   top: 10px;
+}
+#pic{
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+    position: relative;
+   right: 47px;
+  
+}
+
+
+.chek{
+color: #172139;
+}
+.checked {
+    color: orange;
+  }
+  .rating{
+      position: relative;
+      bottom: 10px;
+    margin: 10px;
+    right: 62px;
+  }
+#btn1{
+    background-color: #FF0F71;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    position: relative;
+    left: 76px;
+    top: 21px;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 16px;
+    
+}
+.button{
+    position: relative;
+    top: 12px;
+    background-color: yellow;
+    color: black;
+    font-size: 14px;
+    font-weight: 6000;
+    border: 2px solid black;
+    text-transform: uppercase;
+}
+#SPAN{
+    color: white;
+    font-size: 16px;
+    position: relative;
+    top: 12px;
+    left:10px
+    
+   
+      
+}
+
+.fa{
+    font-size: 20px;
+}
+.modal-body{
+    z-index: 1;
+    align-items: center;
+    background-color: #304467;
+
+}
 p{
     font-size: 14px;
     font-weight: 500;
